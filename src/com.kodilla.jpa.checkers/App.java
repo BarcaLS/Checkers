@@ -29,7 +29,7 @@ class App {
   private static void playerMove(Board board) {
     Scanner scanner = new Scanner(System.in);
 
-    System.out.print("Make your move.\ncurrentCol? ");
+    System.out.print("Please, make your move.\ncurrentCol? ");
     int currentCol = scanner.nextInt();
     System.out.print("currentRow? ");
     int currentRow = scanner.nextInt();
